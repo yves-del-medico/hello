@@ -1,0 +1,29 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "Hello wolrd",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha test/*.spec.js",
+    "posttest": "standard && remark .",
+    "lint-code": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yves-del-medico/hello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yves-del-medico/hello/issues"
+  },
+  "homepage": "https://github.com/yves-del-medico/hello#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mocha-jenkins-reporter": "^0.3.5",
+    "remark-cli": "^2.1.0",
+    "standard": "^8.6.0"
+  }
+}

@@ -1,0 +1,6 @@
+--require chai
+--ui bdd
+--reporter mocha-jenkins-reporter
+--reporter-options junit_report_stack=1,junit_report_path=test/report/junit-report.xml
+--full-trace
+--timeout 4000
